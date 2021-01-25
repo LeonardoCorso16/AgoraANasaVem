@@ -5,7 +5,7 @@ window.onload = function(){
 
 let request = new XMLHttpRequest();
 
-request.open("GET",`https://api.nasa.gov/planetary/apod?api_key=4NIkTZ3CfK1HkJ5vuRxze67FaTVzbJMRdPSznQ2R${ criaQueryString() }`);
+request.open("GET",`https://api.nasa.gov/planetary/apod?api_key=hdSrEcHhLzOck4QlWdZHmE2IdVoHqrnpJtQPoCzf{ criaQueryString() }`);
 
 request.responseType = 'json';
 
